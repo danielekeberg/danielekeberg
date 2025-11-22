@@ -11,7 +11,6 @@ I’m currently finishing my final year as a **Front-end Development student**, 
 ## What I'm Working On
 - Improving my React skills and exploring state management  
 - Building modern, responsive websites using Tailwind CSS  
-- Creating projects such as blogging platforms, auction sites, and my personal portfolio
 
 ## Goals
 I’m aiming to work with web and mobile-focused front-end projects, creating smooth, accessible, and visually engaging user experiences.
