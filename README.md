@@ -2,7 +2,7 @@
 
 I’m currently finishing my final year as a **Front-end Development student**, building a strong foundation in modern web development and UI design.
 
-## 💻 Tech Stack
+## Tech Stack
 -  **React** - my go-to framework for building responsive and dynamic user interfaces  
 -  **Tailwind CSS** - for fast, clean, and scalable styling  
 -  HTML, CSS & JavaScript  
