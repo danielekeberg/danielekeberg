@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Daniel!
+# Hi, I’m Daniel!
 
 I’m currently finishing my final year as a **Front-end Development student**, building a strong foundation in modern web development and UI design.
 
