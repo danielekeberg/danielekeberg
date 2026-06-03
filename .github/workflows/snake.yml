@@ -17,8 +17,26 @@ jobs:
         with:
           github_user_name: danielekeberg
           outputs: |
-            dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Remove progress bar from SVG
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          file = Path("dist/github-contribution-grid-snake-dark.svg")
+          svg = file.read_text(encoding="utf-8")
+
+          # Remove progress bar SVG rectangles
+          svg = re.sub(r'<rect class="u u[0-9]+"[^>]*/>', '', svg)
+
+          # Remove progress bar CSS classes and animations
+          svg = re.sub(r'\.u\{[^}]*\}', '', svg)
+          svg = re.sub(r'@keyframes u[0-9]+\{.*?\}\.u\.u[0-9]+\{[^}]*\}', '', svg)
+
+          file.write_text(svg, encoding="utf-8")
+          PY
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
