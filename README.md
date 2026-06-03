@@ -1,3 +1,5 @@
+![Snake animation](https://github.com/danielekeberg/danielekeberg/blob/output/github-contribution-grid-snake.svg)
+
 # Hi, I’m Daniel!
 
 I'm a Front-end Developer with a strong focus on building modern, user-friendly web applications. I enjoy turning ideas into clean, responsive interfaces using modern tools and best practices. I'm especially passionate about working with React, Tailwind CSS , and integrating REST APIs to create dynamic and scalable solutions.
